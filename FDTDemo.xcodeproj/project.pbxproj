@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		30BC42DE878BF390AA7B6327 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF62772ACE3602C4B7C9961 /* libPods.a */; };
+		BF64DC501CBD32DE00C20CBE /* MessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF64DC4F1CBD32DE00C20CBE /* MessageInfo.m */; };
+		BF64DC591CBD3C6200C20CBE /* MessageInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF64DC571CBD3C6200C20CBE /* MessageInfoTableViewCell.m */; };
+		BF64DC681CBD474100C20CBE /* MessageInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF64DC671CBD474100C20CBE /* MessageInfoTableViewCell.xib */; };
 		BF8E1D901CB69AA700ECBF87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E1D8F1CB69AA700ECBF87 /* main.m */; };
 		BF8E1D931CB69AA700ECBF87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E1D921CB69AA700ECBF87 /* AppDelegate.m */; };
 		BF8E1D961CB69AA700ECBF87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E1D951CB69AA700ECBF87 /* ViewController.m */; };
@@ -21,6 +24,11 @@
 /* Begin PBXFileReference section */
 		4FF62772ACE3602C4B7C9961 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9AA4BC4E4DB34616338615 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF64DC4E1CBD32DE00C20CBE /* MessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInfo.h; sourceTree = "<group>"; };
+		BF64DC4F1CBD32DE00C20CBE /* MessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInfo.m; sourceTree = "<group>"; };
+		BF64DC561CBD3C6200C20CBE /* MessageInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInfoTableViewCell.h; sourceTree = "<group>"; };
+		BF64DC571CBD3C6200C20CBE /* MessageInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInfoTableViewCell.m; sourceTree = "<group>"; };
+		BF64DC671CBD474100C20CBE /* MessageInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageInfoTableViewCell.xib; sourceTree = "<group>"; };
 		BF8E1D8B1CB69AA700ECBF87 /* FDTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8E1D8F1CB69AA700ECBF87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF8E1D911CB69AA700ECBF87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +121,11 @@
 		BFCC9E631CB69FD50087818E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BF64DC561CBD3C6200C20CBE /* MessageInfoTableViewCell.h */,
+				BF64DC571CBD3C6200C20CBE /* MessageInfoTableViewCell.m */,
+				BF64DC671CBD474100C20CBE /* MessageInfoTableViewCell.xib */,
+				BF64DC4E1CBD32DE00C20CBE /* MessageInfo.h */,
+				BF64DC4F1CBD32DE00C20CBE /* MessageInfo.m */,
 				BFCC9E641CB69FD50087818E /* HttpTool.h */,
 				BFCC9E651CB69FD50087818E /* HttpTool.m */,
 				BFCC9E671CB6A0040087818E /* DataTool.h */,
@@ -182,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8E1D9E1CB69AA700ECBF87 /* LaunchScreen.storyboard in Resources */,
+				BF64DC681CBD474100C20CBE /* MessageInfoTableViewCell.xib in Resources */,
 				BF8E1D9B1CB69AA700ECBF87 /* Assets.xcassets in Resources */,
 				BF8E1D991CB69AA700ECBF87 /* Main.storyboard in Resources */,
 			);
@@ -245,7 +259,9 @@
 				BF8E1D961CB69AA700ECBF87 /* ViewController.m in Sources */,
 				BFCC9E691CB6A0040087818E /* DataTool.m in Sources */,
 				BF8E1D931CB69AA700ECBF87 /* AppDelegate.m in Sources */,
+				BF64DC501CBD32DE00C20CBE /* MessageInfo.m in Sources */,
 				BF8E1D901CB69AA700ECBF87 /* main.m in Sources */,
+				BF64DC591CBD3C6200C20CBE /* MessageInfoTableViewCell.m in Sources */,
 				BFCC9E661CB69FD50087818E /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
